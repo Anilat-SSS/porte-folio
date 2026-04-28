@@ -1,125 +1,245 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Stanislas Decomble — Veille Technologie</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link href="style/styles.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stanislas Decomble — Veille Technologie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="style/styles.css" rel="stylesheet">
+</head>
 
-	</head>
-	<body>
+<body>
 
-		<!-- NAVBAR -->
-		<nav>
-			<div class="nav-logo-win">
-				<div class="win-icon">
-				<span></span><span></span><span></span><span></span>
-				</div>
-				Portfolio.exe
-			</div>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-logo-win">
+            <div class="win-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            Portfolio.exe
+        </div>
 
-			<div class="burger" id="burger">☰</div>
+        <div class="burger" id="burger">☰</div>
 
-			<div class="nav-menu" id="navMenu">
-				<div class="nav-separator"></div>
-				<a href="index.html" class="nav-btn">👤 Profil</a>
-				<div class="nav-separator"></div>
-				<a href="competences.html" class="nav-btn">⚙️ Compétences</a>
-				<div class="nav-separator"></div>
-				<a href="experiences.html" class="nav-btn">🏆 Expériences</a>
-				<div class="nav-separator"></div>
-				<a href="formation.html" class="nav-btn">📚 Formation</a>
-				<div class="nav-separator"></div>
-				<a href="contact.html" class="nav-btn">📧 Contact</a>
-				<div class="nav-separator"></div>
-				<a href="vieille-technologie.html" class="nav-btn">🖥️ vieille-technologie</a>
-			</div>
-		</nav>
+        <div class="nav-menu" id="navMenu">
+            <div class="nav-separator"></div>
+            <a href="index.html" class="nav-btn">👤 Profil</a>
+
+            <div class="nav-separator"></div>
+            <a href="competences.html" class="nav-btn">⚙️ Compétences</a>
+
+            <div class="nav-separator"></div>
+            <a href="experiences.html" class="nav-btn">🏆 Expériences</a>
+
+            <div class="nav-separator"></div>
+            <a href="formation.html" class="nav-btn">📚 Formation</a>
+
+            <div class="nav-separator"></div>
+            <a href="contact.html" class="nav-btn">📧 Contact</a>
+
+            <div class="nav-separator"></div>
+            <a href="vieille-technologie.html" class="nav-btn">🖥️ Veille technologique</a>
+        </div>
+    </nav>
+
+   <main>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>IA DANS LES JEUX VIDÉO</h1>
+        <p class="sous-titre">VEILLE TECHNOLOGIQUE</p>
+        <p class="desc">
+            Analyse de l’évolution de l’intelligence artificielle, de ses débuts jusqu’aux technologies actuelles
+            utilisées dans les jeux vidéo modernes.
+        </p>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="timeline-section">
+
+        <h2>Évolution de l’IA</h2>
+        <div class="timeline-axis"></div>
+
+        <!-- ===== DÉBUT ===== -->
+        <div class="era-label"><span>1970 - 1990</span></div>
+
+        <div class="card-vieille-techno">
+            <div class="tl-card">
+                <div class="tl-year">1980</div>
+                <div class="tl-name">IA SCRIPTÉE</div>
+                <div class="tl-brand red">ARCADE</div>
+                <p class="tl-desc">
+                    Les premiers jeux utilisent des comportements fixes. Les ennemis suivent des règles simples
+                    sans aucune adaptation au joueur.
+                </p>
+                <div class="tl-bar-wrap">
+                    <div class="tl-bar-label">INTELLIGENCE</div>
+                    <div class="tl-bar-bg">
+                        <div class="tl-bar-fill" style="width: 15%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tl-dot-wrap"><div class="tl-dot"></div></div>
+            <div class="tl-spacer"></div>
+        </div>
+
+        <!-- ===== 1990 ===== -->
+        <div class="era-label"><span>1990 - 2000</span></div>
+
+        <div class="card-vieille-techno">
+            <div class="tl-spacer"></div>
+            <div class="tl-dot-wrap"><div class="tl-dot"></div></div>
+
+            <div class="tl-card">
+                <div class="tl-year">1995</div>
+                <div class="tl-name">PATHFINDING & IA</div>
+                <div class="tl-brand cyan">3D ERA</div>
+                <p class="tl-desc">
+                    Apparition d’algorithmes comme A* et des machines à états. Les ennemis deviennent capables
+                    de suivre le joueur intelligemment.
+                </p>
+                <div class="tl-bar-fill" style="width: 35%;"></div>
+            </div>
+        </div>
+
+        <!-- ===== MODERNE ===== -->
+        <div class="era-label"><span>2000 - 2020</span></div>
+
+        <div class="card-vieille-techno">
+            <div class="tl-card">
+                <div class="tl-year">2010</div>
+                <div class="tl-name">NPC AVANCÉS</div>
+                <div class="tl-brand green">REALISM</div>
+                <p class="tl-desc">
+                    Les personnages deviennent plus réalistes avec des comportements complexes et coordonnés.
+                    Exemple : ennemis qui communiquent entre eux.
+                </p>
+                <div class="tl-bar-fill" style="width: 65%;"></div>
+            </div>
+
+            <div class="tl-dot-wrap"><div class="tl-dot"></div></div>
+            <div class="tl-spacer"></div>
+        </div>
+
+        <div class="card-vieille-techno">
+            <div class="tl-spacer"></div>
+            <div class="tl-dot-wrap"><div class="tl-dot"></div></div>
+
+            <div class="tl-card">
+                <div class="tl-year">2016</div>
+                <div class="tl-name">GÉNÉRATION PROCÉDURALE</div>
+                <div class="tl-brand yellow">INFINITE WORLD</div>
+                <p class="tl-desc">
+                    Création automatique de mondes et niveaux. Permet des univers immenses et uniques pour chaque joueur.
+                </p>
+                <div class="tl-bar-fill" style="width: 75%;"></div>
+            </div>
+        </div>
+
+        <!-- ===== IA MODERNE ===== -->
+        <div class="era-label"><span>2020 - AUJOURD’HUI</span></div>
+
+        <div class="card-vieille-techno">
+            <div class="tl-card">
+                <div class="tl-year">2022</div>
+                <div class="tl-name">MACHINE LEARNING</div>
+                <div class="tl-brand white">AI TRAINING</div>
+                <p class="tl-desc">
+                    Les IA apprennent du comportement des joueurs. Elles deviennent plus adaptatives et réalistes.
+                </p>
+                <div class="tl-bar-fill" style="width: 85%;"></div>
+            </div>
+
+            <div class="tl-dot-wrap"><div class="tl-dot"></div></div>
+            <div class="tl-spacer"></div>
+        </div>
+
+        <div class="card-vieille-techno">
+            <div class="tl-spacer"></div>
+            <div class="tl-dot-wrap"><div class="tl-dot"></div></div>
+
+            <div class="tl-card">
+                <div class="tl-year">2024</div>
+                <div class="tl-name">IA GÉNÉRATIVE</div>
+                <div class="tl-brand green">NEXT GEN</div>
+                <p class="tl-desc">
+                    Apparition de NPC capables de parler, créer du contenu et interagir naturellement avec le joueur.
+                </p>
+                <div class="tl-bar-fill" style="width: 95%;"></div>
+            </div>
+        </div>
+
+        <!-- ===== FIN ===== -->
+        <div class="timeline-end">
+            <span class="arrow">▼</span>
+            <div class="now-badge">FUTUR</div>
+            <p>
+                NPC intelligents<br>
+                Mondes dynamiques<br>
+                Expériences uniques
+            </p>
+        </div>
+
+    </section>
+
+    <!-- SOURCES -->
+    <section>
+        <h2>Sources</h2>
+
+        <div class="card">
+            <h3>NVIDIA</h3>
+            <p>
+                Utilisé pour comprendre l’IA dans les jeux (DLSS, NPC intelligents).
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>IBM</h3>
+            <p>
+                Source fiable pour les bases du machine learning et deep learning.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>arXiv</h3>
+            <p>
+                Articles scientifiques sur les technologies avancées en IA.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Unity / Unreal Engine</h3>
+            <p>
+                Outils utilisés par les développeurs pour créer des IA dans les jeux.
+            </p>
+        </div>
+
+    </section>
+
+</main>
 
 
 
-		<section>
-		  <h2>1. Introduction</h2>
-		  <p>La veille technologique consiste à surveiller les évolutions dans un domaine afin de rester à jour et compétitif. Dans le développement logiciel, cela permet de suivre les innovations, outils et méthodes.</p>
-		</section>
+    <!-- FOOTER -->
+    <footer>
+        <p class="credit">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</p>
+        <p>© 2026 — STANISLAS DECOMBLE</p>
+        <p>PRESS START TO CONTINUE...</p>
+        <p class="credit">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</p>
+    </footer>
 
-		<section>
-		  <h2>2. Histoire du développement logiciel</h2>
-		  <ul>
-			<li><strong>Années 1950-1970 :</strong> Premiers langages (Fortran, Cobol)</li>
-			<li><strong>Années 1980 :</strong> Apparition des ordinateurs personnels</li>
-			<li><strong>Années 1990 :</strong> Internet et développement web</li>
-			<li><strong>Années 2000 :</strong> Applications web dynamiques (PHP, JavaScript)</li>
-			<li><strong>Années 2010 :</strong> Cloud computing et mobile</li>
-			<li><strong>Années 2020 :</strong> Intelligence artificielle et automatisation</li>
-		  </ul>
-		</section>
+    <script>
+        const burger = document.getElementById('burger');
+        const navMenu = document.getElementById('navMenu');
 
-		<section>
-		  <h2>3. Veille technologique aujourd'hui</h2>
-		  <p>Faire une veille technologique, c'est :</p>
-		  <ul>
-			<li>Rechercher régulièrement des nouvelles informations</li>
-			<li>Suivre les innovations et outils</li>
-			<li>Observer les experts du secteur</li>
-			<li>Anticiper les évolutions</li>
-		  </ul>
-		</section>
+        burger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
 
-		<section>
-		  <h2>4. Exemple</h2>
-		  <p>Un développeur peut suivre :</p>
-		  <ul>
-			<li>Les nouveautés de React ou Vue.js</li>
-			<li>Les mises à jour de Node.js</li>
-			<li>Les tendances en sécurité</li>
-		  </ul>
-		</section>
-
-		<section>
-		  <h2>5. Méthodes pour faire une veille</h2>
-		  <ul>
-			<li>Lire des blogs spécialisés</li>
-			<li>Regarder des vidéos et conférences</li>
-			<li>Suivre des experts sur les réseaux sociaux</li>
-			<li>S'abonner à des newsletters</li>
-			<li>Utiliser Feedly ou Google Alerts</li>
-		  </ul>
-		</section>
-
-		<section>
-		  <h2>6. Importance</h2>
-		  <ul>
-			<li>Rester à jour</li>
-			<li>Être compétitif</li>
-			<li>Découvrir des opportunités</li>
-			<li>Anticiper les évolutions</li>
-		  </ul>
-		</section>
-
-		<section>
-		  <h2>7. Conclusion</h2>
-		  <p>La veille technologique est essentielle dans le développement logiciel. Elle permet d'apprendre en continu et de ne pas se laisser dépasser par les innovations.</p>
-		</section>
-
-
-
-	
-
-		<!-- FOOTER -->
-		<footer>
-			<p class="credit">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</p>
-			<p>© 2026 — STANISLAS DECOMBLE</p>
-			<p>PRESS START TO CONTINUE...</p>
-			<p class="credit">▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓</p>
-		</footer>
-
-		<script>
-			const burger = document.getElementById('burger');
-			const navMenu = document.getElementById('navMenu');
-			burger.addEventListener('click', () => navMenu.classList.toggle('active'));
-		</script>
-
-	</body>
+</body>
 </html>
